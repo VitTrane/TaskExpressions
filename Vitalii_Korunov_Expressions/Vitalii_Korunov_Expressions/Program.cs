@@ -12,7 +12,7 @@ namespace Vitalii_Korunov_Expressions
         static void Main(string[] args)
         {
             Console.WriteLine("Выражение: ");
-            Expression<Func<int,int,int>> expr = (a,b)=> (a+1)*(1+b)-(a+1)*a;
+            Expression<Func<int,int,int>> expr = (a,b)=> (a+99)*(1+b)-(a+1)*a;
             Console.WriteLine(expr);
             Console.WriteLine("подставим в выражение a=2, b=2");
             Console.WriteLine(expr.Compile().Invoke(2,2));

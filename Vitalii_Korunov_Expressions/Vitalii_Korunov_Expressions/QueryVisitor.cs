@@ -24,13 +24,19 @@ namespace Vitalii_Korunov_Expressions
 
                 if (left.NodeType == ExpressionType.Parameter && right.NodeType == ExpressionType.Constant) 
                 {
-                    return Expression.MakeUnary(ExpressionType.PreIncrementAssign,left,null);
+                    var value = ((ConstantExpression)right).Value;
+
+                    if ((int)value == 1)
+                        return Expression.MakeUnary(ExpressionType.PreIncrementAssign,left,null);
                     
                 }
 
                 if (right.NodeType == ExpressionType.Parameter && left.NodeType == ExpressionType.Constant) 
                 {
-                    return Expression.MakeUnary(ExpressionType.PreIncrementAssign, right, null);
+                    var value = ((ConstantExpression)left).Value;
+
+                    if ((int)value == 1)
+                        return Expression.MakeUnary(ExpressionType.PreIncrementAssign, right, null);
                 }
             }
 
