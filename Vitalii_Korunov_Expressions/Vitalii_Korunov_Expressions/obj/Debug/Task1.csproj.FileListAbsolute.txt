@@ -4,3 +4,9 @@ E:\My\Labs\Epam\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\bin\Debu
 E:\My\Labs\Epam\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Task1.csprojResolveAssemblyReference.cache
 E:\My\Labs\Epam\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Vitalii_Korunov_Expressions.exe
 E:\My\Labs\Epam\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Vitalii_Korunov_Expressions.pdb
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\bin\Debug\Vitalii_Korunov_Expressions.exe.config
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Vitalii_Korunov_Expressions.exe
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Vitalii_Korunov_Expressions.pdb
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\bin\Debug\Vitalii_Korunov_Expressions.exe
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\bin\Debug\Vitalii_Korunov_Expressions.pdb
+E:\My\Git\GitHubTaskExpression\Vitalii_Korunov_Expressions\Vitalii_Korunov_Expressions\obj\Debug\Task1.csprojResolveAssemblyReference.cache

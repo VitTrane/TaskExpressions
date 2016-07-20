@@ -25,6 +25,12 @@ namespace Vitalii_Korunov_Expressions
                 if (left.NodeType == ExpressionType.Parameter && right.NodeType == ExpressionType.Constant) 
                 {
                     return Expression.MakeUnary(ExpressionType.PreIncrementAssign,left,null);
+                    
+                }
+
+                if (right.NodeType == ExpressionType.Parameter && left.NodeType == ExpressionType.Constant) 
+                {
+                    return Expression.MakeUnary(ExpressionType.PreIncrementAssign, right, null);
                 }
             }
 
