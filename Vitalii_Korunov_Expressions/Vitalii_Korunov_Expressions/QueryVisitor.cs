@@ -19,8 +19,8 @@ namespace Vitalii_Korunov_Expressions
 
             if (node.NodeType == ExpressionType.Add) 
             {
-                Expression left = this.Visit(node.Left);
-                Expression right = this.Visit(node.Right);
+                Expression left = node.Left;
+                Expression right = node.Right;
 
                 if (left.NodeType == ExpressionType.Parameter && right.NodeType == ExpressionType.Constant) 
                 {
